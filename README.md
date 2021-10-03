@@ -1,7 +1,7 @@
-# Crenvision
-It's my preset with a little too much code for a ClearVision preset
+# Hehvision
+It's my preset with a little too much code for a ClearVision preset. Specifically the SatoruTsuki theme tho. That shit is fire.
 _ _
-## Adding CrenVision
+## Adding HehVision
 Some random words to really fucking sell my preset.
 ### I already have ClearVision
 Replace your clearvsion import line with the one below.
