@@ -41,7 +41,7 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --interactive-active: MediumSlateBlue;
-  --url-color: rgb(187, 168, 255); 
+  --url-color: rgb(153, 76, 212); 
 
   /* Alternate + main background */ 
  --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/874044260368924742/girl-staring-out-window-2.gif);
@@ -72,8 +72,9 @@
   --background-saturation: 115%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 2px;
+  --background-blur: 3px;
   --background-overlay: rgba(12, 0, 83, 0.3);
+  
   --user-popout-image: var(--background-image);
   --user-popout-position: var(--background-position);
   --user-popout-size: var(--background-size);
@@ -82,12 +83,32 @@
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
-  --user-popout-brightness: 250%; /* the lighter the less you see the user's background, and more the one you set prior (does make the background darker tho for those that don't ahve a usrbg)*/
+  --user-popout-brightness: 165%; /* the lighter the less you see the user's background, and more the one you set prior (does make the background darker tho for those that don't ahve a usrbg)*/
   --user-popout-contrast: 100%;
   --user-popout-saturation: 200%;
   --user-popout-grayscale: 0%;
-  --user-popout-invert: 10%;
-  --user-popout-blur: 0px;
+  --user-popout-invert: 05%;
+  --user-popout-blur: 5px;
+  
+  --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
+  --user-modal-repeat: var(--background-repeat);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%; /* the lighter the less you see the user's background, and more the one you set prior (does make the background darker tho for those that don't ahve a usrbg)*/
+  --user-modal-contrast: 115%;
+  --user-modal-saturation: 120%;
+  --user-modal-grayscale: 15%;
+  --user-modal-invert: 2.5%;
+  --user-modal-blur: 8px;
+  --user-modal-avatar-size: 200px;
+  --user-modal-avatar-position-x: 35%; /*higher, more to right, 1-30 or so */
+  --user-modal-avatar-position-y: -6.5vh !important; /* -6.5 vertical, -15.5 horizantal */
+  --user-modal-banner-opacity:.5;
+  --user-modal-banner-blur:blur(2.6px);
 
   --backdrop-overlay: none;
   --backdrop-image: var(--main-image);
@@ -129,7 +150,6 @@
   --watermark-override:  "Goodnight, Satoru";
 
   /* Chat Bubble Coloring */
-  
   --message-mentioned-color: rgba(124,103,184, 0.45);
   --message-personal-color: rgba(89, 0, 255, 0.35);
   --message-other-color: var(--main-color);
@@ -144,7 +164,7 @@
   --bd-blue-active: var(--hover-color);
 
   /* Custom sizes */
-  --channels-width: 235px;
+  --channels-width: 255px;
   --members-width: 200px;
   --container: 40px;
   --server-container-padding: 200px;
@@ -192,9 +212,7 @@
 	--USRBG-banner-height: 120px !important;
 }
 
-/* YOUR CODE */
-
-/* REMOVE INFO THING (remove this snippet if you have premium) */
+/* mmm fun things */
 
 /* Server unread colors */
 #app-mount .guilds-1SWlCJ [class*=pill] span {
@@ -240,4 +258,51 @@
 }
 .message-2qnXI6 {
   animation: slide-up 0.4s ease;
+}
+
+/* bigger channel link */
+.children-19S4PO .mention.iconMentionText-8GCluA {
+  padding-left: 1rem !important;
+}
+
+/* Customized status picker*/
+#status-picker {
+  bottom: 0;
+  left: 20px !important;
+  width: auto !important; 
+  position: fixed;
+  border-radius: unset;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px;
+  background-color: rgba(23, 12, 54,0.85);
+}
+#status-picker .item-1tOPte {
+  margin: auto 10px;
+}
+
+#status-picker-online {
+  --status-colour: var(--online-color);
+}
+#status-picker-idle {
+  --status-colour: var(--idle-color);
+}
+#status-picker-dnd {
+  --status-colour: var(--dnd-color);
+}
+#status-picker-invisible {
+  --status-colour: var(--offline-color);
+}
+
+/* Add :not(#status-picker-game-activity) after each of these :not s if applicable */
+#status-picker .item-1tOPte:not(#status-picker-custom-status):active,
+#status-picker .item-1tOPte:not(#status-picker-custom-status).focused-3afm-j {
+  background-color: var(--status-colour); 
+  animation: slide-up .5s ease; /* Adds animation to the colors so it's less jarring */
+  
+}
+
+/* user modal open link button */
+.connectedAccountOpenIcon-E5wGF4 {
+  color   : deeppink !important;
+  opacity : 1;
 }
