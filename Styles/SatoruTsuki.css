@@ -306,3 +306,27 @@
   color   : deeppink !important;
   opacity : 1;
 }
+
+/* minimized user list */
+.membersWrap-2h-GB4{
+  min-width: 0 !important;
+}
+.members-1998pB{
+  transition: 250ms ease all;
+  width: 61px;
+}
+.membersWrap-2h-GB4:hover .members-1998pB{
+  width: 240px !important;
+}
+
+/* Friends Grid */
+.theme-dark {
+  --FG-cards-background-normal: var(--main-color) !important;
+  --FG-cards-background-hover: var(--hover-color) !important;
+}
+
+/* fix unselected channels */
+.wrapper-2jXpOf.modeConnected-3IsKId .content-1x5b-n .mainContent-u_9PKf .name-23GUGE {
+    color: #A228FF;
+    text-shadow: 0 0 3px;
+}
