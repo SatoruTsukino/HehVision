@@ -18,7 +18,7 @@
 */
 
 /* Imports */
-@import url("https://crenshaw1312.github.io/CrenVision/main.css");
+@import url("https://satorutsukino.github.io/HehVision/main.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); /* less round colors, the better tbh */
 @import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* make chat icons cool, remove uotes to enable */
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css"); /* USRBG POPOUTS */
@@ -41,9 +41,10 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --interactive-active: MediumSlateBlue;
-  --url-color: rgb(153, 76, 212); 
+  --url-color: rgb(153, 76, 212);
+  --texting-color: #A228FF;
 
-  /* Alternate + main background */ 
+  /* Alternate + main background */
  --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/874044260368924742/girl-staring-out-window-2.gif);
 /* --main-image: url(https://media.giphy.com/media/vMSXa7KFGx49aeeXhe/source.gif); /* Rolling Casette gif */
 /* --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/872994863497490493/ponyo-night-ship.gif); /* Ponyo Ship gif  (the flashing tho)*/
@@ -74,7 +75,7 @@
   --background-invert: 0%;
   --background-blur: 3px;
   --background-overlay: rgba(12, 0, 83, 0.3);
-  
+
   --user-popout-image: var(--background-image);
   --user-popout-position: var(--background-position);
   --user-popout-size: var(--background-size);
@@ -89,7 +90,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 05%;
   --user-popout-blur: 5px;
-  
+
   --user-modal-image: var(--background-image);
   --user-modal-position: var(--background-position);
   --user-modal-size: var(--background-size);
@@ -128,7 +129,7 @@
   --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
   --home-position: center;
   --home-size: calc(var(--HSL-server-icon-size) * 1);
-  
+
   /* Channel Coloring */
   --channel-unread: var(--url-color);
   --channel-color: rgb(255, 255, 255);
@@ -142,7 +143,7 @@
   --dnd-color: #ff2c78;
   --streaming-color: #593695;
   --offline-color: #808080;
-  
+
   /* text */
   --main-font: Oxygen;
   --code-font: Consolas;
@@ -176,7 +177,7 @@
 
   /* raidal status variables */
   --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px; 
+  --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
   --rs-small-width: 2px;
   --rs-medium-width: 3px;
@@ -269,7 +270,7 @@
 #status-picker {
   bottom: 0;
   left: 20px !important;
-  width: auto !important; 
+  width: auto !important;
   position: fixed;
   border-radius: unset;
   border-top-left-radius: 8px !important;
@@ -296,9 +297,9 @@
 /* Add :not(#status-picker-game-activity) after each of these :not s if applicable */
 #status-picker .item-1tOPte:not(#status-picker-custom-status):active,
 #status-picker .item-1tOPte:not(#status-picker-custom-status).focused-3afm-j {
-  background-color: var(--status-colour); 
+  background-color: var(--status-colour);
   animation: slide-up .5s ease; /* Adds animation to the colors so it's less jarring */
-  
+
 }
 
 /* user modal open link button */
@@ -327,6 +328,6 @@
 
 /* fix unselected channels */
 .wrapper-2jXpOf.modeConnected-3IsKId .content-1x5b-n .mainContent-u_9PKf .name-23GUGE {
-    color: #A228FF;
+    color: var(--texting-color);
     text-shadow: 0 0 3px;
 }
