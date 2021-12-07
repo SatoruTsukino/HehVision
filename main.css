@@ -27,7 +27,7 @@
 
 /* required imports */
 @import url('https://clearvision.gitlab.io/v6/main.css'); /* what this whole thing is built on...*/
-@import url("https://Crenshaw1312.github.io/CrenVision/base.css"); /* the shit you want form me */
+@import url("https://satorutsukino.github.io/HehVision/base.css"); /* the shit you want form me */
 @import url('https://gibbu.github.io/BetterDiscord-Themes/AdjustableServerWidth/base.css');
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 @import url("https://raw.githack.com/Discord-Theme-Addons/statuspicker-plus/master/src/support/StatusPickerPlus.theme.css");
@@ -39,7 +39,7 @@
   --success-color: #43b581;
   --danger-color: #982929;
   --interactive-active: pink;
-  --url-color: rgb(187, 168, 255); 
+  --url-color: rgb(187, 168, 255);
 /*https://media.discordapp.net/attachments/773783597861437471/844710923167989760/187481365_781642939153484_8850979056342055258_n.png*/
   --main-image: url(https://images.wallpaperscraft.com/image/girl_night_art_147234_5000x6637.jpg); /* an image with duller colors looks nice on backdrop */
 
@@ -121,7 +121,7 @@
   --home-icon: url(https://clearvision.gitlab.io/icons/discord.svg);
   --home-position: center;
   --home-size: calc(var(--HSL-server-icon-size) * 1.5);
-  
+
   /* Channel Coloring */
   --channel-unread: var(--url-color);
   --channel-color: rgb(255, 255, 255);
@@ -135,7 +135,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  
+
   /* text */
   --main-font: Architects Daughter;
   --code-font: Consolas;
@@ -172,7 +172,7 @@
 
   /* raidal status variables */
   --rs-small-spacing: 2px;
-  --rs-medium-spacing: 3px; 
+  --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
   --rs-small-width: 2px;
   --rs-medium-width: 3px;
