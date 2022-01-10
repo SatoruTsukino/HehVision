@@ -1,15 +1,15 @@
 /* partial credits to mr_miner#6969 */
 
-.headerTop-3vNv-a, .rolesList-1geHY1, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-1IYtPE{
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-Z8we9g, .customStatus-3XAoF9, .aboutMeTitle-3pjiS7{
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.avatarWrapperNormal-26WQIb{
+.avatarWrapperNormal-ahVUaC{
   position: absolute;
   left: 35%;
 }
-.profileBadges-ohc0Vu{
+.profileBadges-2pItdR{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,30 +19,30 @@
   position: absolute;
   transform: translate(-250px);
 }
-.userPopout-xaxa6l .input-cIJ7To, .aboutMeSection-1Fw5Ia, .bodyTitle-1ySSKn, .textarea-2r0oV8, .marginBottom8-AtZOdT.size14-e6ZScH, .colorStandard-2KCXvj.marginBottom8-AtZOdT{
+.userPopout-2j1gM4 .input-2g-os5, .aboutMeSection-PUghFQ, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-emkd0_.size14-3fJ-ot, .colorStandard-21JIj7.marginBottom8-emkd0_{
   text-align: center;
 }
-.userPopout-xaxa6l .aboutMeBody-3GuvKk {
+.userPopout-2j1gM4 .aboutMeBody-1J8rhz {
   overflow-y: scroll;
   width: auto !important;
 }
-.rolesList-1geHY1 .role-2irmRk.alignCenter-1dQNNs {
+.rolesList-3uZoaa .role-2TIOKu.alignCenter-14kD11 {
   width: 110%;
   padding: 0px;
   justify-content: center;
   border-radius: var(--bubble-radius-big) !important;
 }
-.role-2irmRk > .roleCircle-3xAZ1j:after{
+.role-2TIOKu > .roleCircle-1EgnFN:after{
   border-radius: var(--bubble-radius-big);
 }
-.roleCircle-3xAZ1j {
+.roleCircle-1EgnFN {
   color: #000 !important;
   align-items: center !important;
   -webkit-box-align: center !important;
 }
 
 /* make bubbles */
-.userPopout-xaxa6l .aboutMeBody-3GuvKk, .userPopout-xaxa6l .rolesList-1geHY1, .userPopout-xaxa6l .activity-2INFPu > div:not(.buttonsWrapper-2spIeK), .userPopout-xaxa6l .marginBottom8-AtZOdT.size14-e6ZScH, .userPopout-xaxa6l .colorStandard-2KCXvj.marginBottom8-AtZOdT{
+.userPopout-2j1gM4 .aboutMeBody-1J8rhz, .userPopout-2j1gM4 .rolesList-3uZoaa, .userPopout-2j1gM4 .activity-1gTu-L > div:not(.buttonsWrapper-2ARRp1), .userPopout-2j1gM4 .marginBottom8-emkd0_.size14-3fJ-ot, .userPopout-2j1gM4 .colorStandard-21JIj7.marginBottom8-emkd0_{
   background-color: var(--bubble-color) !important;
   backdrop-filter: brightness(150%);
   border-radius: var(--bubble-radius-small);
@@ -53,7 +53,7 @@
   padding-bottom: 3px;
   width: auto !important;
 }
-.userPopout-xaxa6l .base-1x0h_U.muted-3-7c5L, .userPopout-xaxa6l .activity-2INFPu .headerTextNormal-2mGWX3 {
+.userPopout-2j1gM4 .base-21yXnu.muted-eZM05q, .userPopout-2j1gM4 .activity-1gTu-L .headerTextNormal-Z8we9g {
   background-color: var(--bubble-color);
   border-top-left-radius: var(--bubble-radius-small);
   border-top-right-radius: var(--bubble-radius-small);
@@ -61,7 +61,7 @@
   margin-right: 6px;
 }
 
-.userPopout-xaxa6l .note-1oo11U {
+.userPopout-2j1gM4 .note-Go5ZP2 {
   margin-right: 6px !important;
   margin-left: 0px !important;
   margin-bottom: 10px;
@@ -75,7 +75,7 @@
 }
 
 /* progress bar color for spotify */
-.barInner-3NDaY_ {
+.barInner-3dHef4 {
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
   background-size: 1800% 1800%;
   animation: rainbow-banner 12s ease infinite;
@@ -83,9 +83,9 @@
 
 
 
-.userPopout-xaxa6l .avatarHint-2A3RNb {
+.userPopout-2j1gM4 .avatarHint-k7pYop {
   display: none;
 }
-.userPopout-xaxa6l .divider-ewBQKj {
+.userPopout-2j1gM4 .divider-1wtgZ3 {
   display: none;
 }

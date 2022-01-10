@@ -1,20 +1,20 @@
  /* settings menu */
- #app-mount .menu-3sdvDG {
+ #app-mount .menu-1QACrS {
     border-radius: 10px;
   }
-  .header-2mZ9Ov::before {
+  .header-JUTO-g::before {
     background-color: pink !important;
     filter: none !important;
     border-radius: 10px !important;
   }
   /* SETTINGS CHOOSER BAR */
-  .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .side-8zPYf6 {
+  .standardSidebarView-E9Pc3j .sidebarRegion-1VBisG .side-2ur1Qk {
     border-radius: var(--bubble-radius-small);
     margin-top: 10%;
     background-color: var(--bubble-color) !important;
   }
   /* SETTINGS DISPLAY */
-  .contentColumn-2hrIYH, .contentColumnDefault-1VQkGM {
+  .contentColumn-1C7as6, .contentColumnDefault-3eyv5o {
     background-color: var(--bubble-color);
     border-radius: var(--bubble-radius-big);
     margin-top: 45px;

@@ -16,7 +16,6 @@
 /* SOLID STATE */
 // @use "./Styles/Crimsion.css";
 
-
 /* CLEARVISION OFFICAL PRESETS */
 // @use "./Styles/Winter.css";
 // @use "./Styles/Emerald.css";
@@ -26,7 +25,6 @@
 // @use "./Styles/Amber.css";
 // @use "./Styles/Amethyst.css";
 
-
 /* NSFW */
 // @use "./Styles/TiredInBed.css";
 // @use "./Styles/Touching.css";
@@ -35,13 +33,15 @@
 /* EXTRAS */
  @use "./Extras/Timeless.css"; /* remove chat timestamps, looks cleaner ig */
 // @use "./Extras/ResizableSideThreads.css"; /* some snippet I found that's pretty cool ig */
-// @use "./Extras/CustomBubbleColors.css"; /* library of custom chat-bubble colors, feel free to PR to add yours */
+ @use "./Extras/CustomBubbleColors.css"; /* library of custom chat-bubble colors, feel free to PR to add yours */
 // @use "./Extras/NoScrollBars.css"; /* uh- it removes all scrollbars */
  @use "./Extras/CustomWatermarkRibbon.css"; /* enables --watermark-override, you should really enable this*/
+ @use "./shit/Plugins/FriendsGrid.css"; /* enables Friends Grid if you like that */
+// @use "./shit/Plugins/kia-status-picker.css";
 
 // DO NOT TOUCH
 // this is here bc the horizantal server list creator , Gibbu (check out his shit btw),put an !important, and it overrides my code :/
-#app-mount .guilds-1SWlCJ {
+#app-mount .guilds-2JjMmN {
     height: calc(100vw - 15px) !important;
     backdrop-filter: brightness(100%) !important;
 }

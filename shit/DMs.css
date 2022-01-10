@@ -1,20 +1,20 @@
 /* DMS */
 /* friendos list */
-.peopleColumn-29fq28 {
+.peopleColumn-1wMU14 {
     margin-right: 10px;
   }
   /* List of activites */
-  .theme-dark .outer-1AjyKL {
+  .theme-dark .outer-2JOHae {
     background-color: var(--bubble-color);
     border-radius: 20px;
   }
-  .theme-dark .inset-3sAvek {
+  .theme-dark .inset-SbsSFp {
     border-radius: var(--bubble-radius-small);
   }
-  .headerIcon-10Jegm {
+  .headerIcon-2ra-HY {
     display: none;
   }
-  .nowPlayingColumn-2sl4cE {
+  .nowPlayingColumn-1eCBCN {
     background-color: var(--bubble-color);
     border-radius: var(--bubble-radius-big);
     margin-top: 10px;
@@ -22,11 +22,11 @@
     margin-bottom: 15px;
   }
   /* look for friends you don't have */
-  .searchBarComponent-32dTOx {
+  .searchBarComponent-3N7dCG {
     border-radius: var(--bubble-radius-big) !important;
   }
   /* dm list */
-  .privateChannels-1nO12o {
+  .privateChannels-oVe7HL {
     background-color: var(--bubble-color) !important;
     border-radius: var(--bubble-radius-big);
     margin-bottom: 15px;
@@ -35,17 +35,17 @@
   }
 
 /* DM +friend list Stuph*/
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8M {
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-2DM8M {
     background-color: pink !important;
 }
-.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 .privateChannelRecipientsInviteButtonIcon-3A3uTc, .privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 .privateChannelRecipientsInviteButtonIcon-3A3uTc:hover {
+.privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .privateChannelRecipientsInviteButtonIcon-1ObKXK, .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .privateChannelRecipientsInviteButtonIcon-1ObKXK:hover {
     color: #fff !important;
 }
 /* close button */
-.closeIcon-rycxaQ {
+.closeIcon-1NwtbI {
     color: white;
 }
 /* activity name letters, make white like member list */
-.activity-2myFBH strong {
+.activity-1KqKY2 strong {
     color: #fff;
 }

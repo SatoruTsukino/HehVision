@@ -1,5 +1,5 @@
 /* userpanel setting shiz */
-.panels-j1Uci_ {
+.panels-3wFtMD {
     background-color: var(--bubble-color);
     background-position: center;
     background-repeat: no-repeat;
@@ -9,19 +9,19 @@
     margin-bottom: 15px;
     margin-left: 5px;
 }
-.container-3baos1:nth-last-child(1) {
+.container-YkUktl:nth-last-child(1) {
     margin-top: 15px;
 }
 
 /*Tropical*/
 /* Fly in Voice Chat buttons fix */
-.container-3baos1 .noWrap-3jynv6 {
+.container-YkUktl .noWrap-hBpHBz {
     width: 0px;
     opacity: 0;
     pointer-events: none;
     transition: all .5s ease-in-out;
 }
-.container-3baos1:hover .noWrap-3jynv6 {
+.container-YkUktl:hover .noWrap-hBpHBz {
     width: 100px;
     opacity: 1;
     pointer-events: all;
@@ -32,11 +32,11 @@
     max-width: var(--channels-width);
     backdrop-filter: brightness(90%);
 }
-#app-mount #status-picker .scroller-3BxosC #status-picker-custom-status {
+#app-mount #status-picker .scroller-1bVxF5 #status-picker-custom-status {
     width: calc(var(--channels-width) - 6px);
     background-color: transparent;
     margin-left: -20px;
 }
-#app-mount #status-picker .scroller-3BxosC {
+#app-mount #status-picker .scroller-1bVxF5 {
     margin-left: -10px;
 }

@@ -1,17 +1,17 @@
 /* DISPLAY NONE BANK */
 /* currently selected clear */
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after {
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after {
 background: none;
 }
-.privateChannels-1nO12o .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md:after {
+.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw:after {
 animation: none;
 }
 /* little icon to show there's a presence */
-.icon-15YQ1T {
+.icon-Lupfh- {
 display: none;
 }
 /* no description of DnD and invis with status picker */
-.description-2L932D {
+.description-3Cwkxk {
 display: none;
 }
 /* spotify display icon */
@@ -19,7 +19,7 @@ display: none;
   display: none;
 }
 /* edit banner pencil*/
-.pencilIcon-XSi-VE {
+.pencilIcon-z04-c5 {
   display: none;
 }
 /*set a server name and custom pfp */
@@ -27,12 +27,12 @@ display: none;
   display: none;
 }
 /* NO NITRO CHATBAR BUTTON */
-.buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8) {display: none}
-.privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
+.buttons-uaqb-5 > .button-38aScr > :not(.translateButton-DhP9x8) {display: none}
+.privateChannels-oVe7HL .channel-1Shao0[href="/store"] {
 display: none;
 }
 /* NO HELP BUTTON */
-.iconWrapper-2OrFZ1[aria-label=Help] {
+.iconWrapper-2awDjA[aria-label=Help] {
 display: none;
 } 
 /* misc un-needed buttons */
@@ -44,11 +44,11 @@ display: none;
   display: none
 }
 /* fuck off "you need 2fa" notice I know it damnit*/
-.channelNotice-1-XFjC {
+.channelNotice-tO6Tus {
   display: none
 }
 /*Remove underline for when hovering over username in chat*/
-.applicationName-1-Uq7y.clickable-1bVtEA:hover, .commandName-1klrjB.clickable-1bVtEA:hover, .username-1A8OIy.clickable-1bVtEA:hover {
+.applicationName-19i3lP.clickable-31pE3P:hover, .commandName-1KhvGm.clickable-31pE3P:hover, .username-h_Y3Us.clickable-31pE3P:hover {
   text-decoration: none !important;
 }
 /* Channel Tabs, just keep the settings in settings eh? */
@@ -56,6 +56,6 @@ display: none;
   display: none;
 }
 /* Threads Spine */
-.spine--Wla_O {
+.spine-29OFwR {
   display: none;
 }

@@ -1,22 +1,22 @@
-.typeWindows-1za-n7 {
+.typeWindows-2-g3UY {
   background-color: var(--bubble-color);
   margin-top: -2px;
   margin-bottom: 3px;
 }
 
   /* make invite to guild list look better */
-.submenuPaddingContainer-fiOCHc [aria-activedescendant ^= "user-context-invite-to-server"] {
+.submenuPaddingContainer-_k62dJ [aria-activedescendant ^= "user-context-invite-to-server"] {
   max-height: 300px !important;
   overflow-y: scroll;
 }
 
 /* I have no idea what this did/does, so imma leave it */
-.content-1o0f9g {
+.content-3spvdd {
   background-color: var(--bubble-color);
   color: white;
 }
   /* buttons */
-.appMount-3lHmkl .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .appMount-3lHmkl .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+.appMount-2yBXZl .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .appMount-2yBXZl .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
   color: #fff;
   background: transparent;
   border-color: transparent;

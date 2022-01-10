@@ -1,8 +1,8 @@
 /* CHANNEL HEADER */
-#app-mount .sidebar-2K8pFh {
+#app-mount .sidebar-1tnWFu {
   background: none;
 }
-.title-3qD0b-, .base-3dtUhz .container-1r6BKw {
+.title-31SJ6t, .base-2jDfDU .container-ZMc96U {
   background-color: var(--bubble-color) !important;
   border-radius: var(--bubble-radius-big);
   position: relative !important;
@@ -11,37 +11,37 @@
   left: 0px !important;
   width: calc(100% - 27px);
 }
-.searchBar-3dMhjb {
+.searchBar-zdmu7v {
   border-radius: 15px !important;
 }
-.iconWrapper-2OrFZ1, .clickable-3rdHwn {
+.iconWrapper-2awDjA, .clickable-ZD7xvu {
   background-color: none;
 }
   
 /* inbox */
-.container-enaOkj {
+.container-2ebMPP {
   background-color: var(--bubble-color);
   backdrop-filter: brightness(50%);
 }
   
 /* pins */
-.layer-v9HyYc .messagesPopout-24nkyi [class="avatar-1BDn8e"], .layer-v9HyYc .messagesPopout-24nkyi .header-23xsNx {
+.layer-2aCOJ3 .messagesPopout-eVzQcI [class="avatar-2e8lTP"], .layer-2aCOJ3 .messagesPopout-eVzQcI .header-2jRmjb {
   display: none;
 }
 
   /* CHANGE BUTTONS COLOR */
-.icon-GhnIRB, .icon-22AiRD {
+.icon-GhnIRB, .icon-2xnN2Y {
   color: var(--bubble-color);
   filter: invert(20%);
 }
 
 /* Title hashtag/waving dude/at sign symbol */
-.container-1r6BKw .children-19S4PO .icon-22AiRD {
+.container-ZMc96U .children-3xh0VB .icon-2xnN2Y {
   color: rgba(255, 255, 255, 0.672);
 }
 
 /* ONLY SHOW SEARCH ON HOVER */
-.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 140px; transition: 0.25s;}
-.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
-.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
+.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-1FM8Qc:not(.open-3y3yI_):hover .searchBar-zdmu7v { width: 140px; transition: 0.25s;}
+.search-1FM8Qc:not(.open-3y3yI_) .iconContainer-1RqWJj { transform: scale(1.2); transition: 0.25s;}
+.search-1FM8Qc:not(.open-3y3yI_):hover .iconContainer-1RqWJj { transform: scale(1); transition: 0.25s;}

@@ -1,5 +1,5 @@
 /* CHAT BACKGROUND */
-.chatContent-a9vAAp, .peopleColumn-29fq28 {
+.chatContent-3KubbW, .peopleColumn-1wMU14 {
   border-radius: var(--bubble-radius-big);
   background-color: var(--bubble-color) !important;
   margin-left: 15px;
@@ -9,7 +9,7 @@
 }
 
 /* message jump and unreads (in chat and channel list) */
-.newMessagesBar-265mhP, .barButtonMain-3K-jeJ, .barButtonBase-2uLO1z, .unread-1xRYoj, .mention-1f5kbO {
+.newMessagesBar-1hF-9G, .barButtonMain-2GIx4o, .barButtonBase-Sk2mdB, .unread-2wipsx, .mention-3XBnnZ {
   background-color: var(--url-color);
   backdrop-filter: brightness(80%);
   border-radius: var(--bubble-radius-big);
@@ -17,17 +17,17 @@
   margin-left: -8px;
   margin-right: -8px;
 }
-.unreadBar-3t3sYc:before, .unreadBar-3t3sYc:after {
+.unreadBar-elBRZx:before, .unreadBar-elBRZx:after {
   display: none;
 }
   
 /* auto complete chatbar */
-.autocomplete-1vrmpx .autocompleteInner-zh20B_ {
+.autocomplete-3NRXG8 .autocompleteInner-y1mjDl {
   background-color: var(--bubble-color);
   border-radius: var(--bubble-radius-big);
   backdrop-filter: brightness(50%);
 }
-.autocomplete-1vrmpx .selected-1Tbx07 {
+.autocomplete-3NRXG8 .selected-3H3-RC {
   background-color: var(--bubble-color) !important;
   border-radius: var(--bubble-radius-small);
   margin-right: 10px;
@@ -35,32 +35,32 @@
 }
 
 /* Hides Textbox when you don't have permission to talk in the channel */
-.channelTextAreaDisabled-8rmlrp > div {
+.channelTextAreaDisabled-1p2fQv > div {
   display: none
 }
 
 /* JUMP TO PRESENT BAR */
-.jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:hover, .barBase-1c2Rfb {
+.jumpToPresentBar-1cEnH0, .jumpToPresentBar-1cEnH0:hover, .barBase-3xxDXu {
   background: var(--bubble-color);
   border-radius: var(--bubble-radius-small);
   margin-bottom: 3px;
 }
 
 /* Chat bar clear, or whatever... */
-.channelTextArea-2VhZ6z, .scrollableContainer-2NUZem {
+.channelTextArea-1VQBuV, .scrollableContainer-15eg7h {
   background-color: var(--chatbar-color);
 }
-.channelTextArea-2VhZ6z .textArea-12jD-V .placeholder-37qJjk {
+.channelTextArea-1VQBuV .textArea-2CLwUE .placeholder-1_mJY1 {
   display: none;
 }
 
 /* START OF CHAT GREETING (Welcome to #general) */
-.container-3RCQyg{
+.container-1yy5xN{
   background-color: var(--bubble-color);
   border-radius: var(--bubble-radius-big);
   padding: 3%;
 }
-.container-3RCQyg .description-1sDbzZ {
+.container-1yy5xN .description-22d6ux {
   display: none;
 }
 

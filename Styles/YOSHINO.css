@@ -179,7 +179,7 @@
     --channelTabs-selectedColor: rgba(0, 0, 0, .25);
     --channelTabs-iconRadius: var(--rs-avatar-shape); /* 0% = square | 50% = circle */
   }
-  .userPopout-xaxa6l {
+  .userPopout-2j1gM4 {
       --USRBG-banner-height: 120px !important;
   }
   
@@ -189,15 +189,15 @@
     --yoshino-red: #f53d5249;
 }
   /* MEMBER LIST */
-.membersWrap-2h-GB4 .members-1998pB {
+.membersWrap-3NUR2t .members-3WRCEx {
     background-color: var(--yoshino-red) !important;
 }
 /* CHANNEL/FRIENDS LIST and USER PANNEL */
-.container-3w7J-x, .panels-j1Uci_, .privateChannels-1nO12o {
+.container-1NXEtd, .panels-3wFtMD, .privateChannels-oVe7HL {
     background-color: var(--yoshino-green) !important;
 }
 /* GUILD LIST */
-.wrapper-3NnKdC, #app-mount .guilds-1SWlCJ, #app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
+.wrapper-1_HaEi, #app-mount .guilds-2JjMmN, #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
     background: linear-gradient(var(--yoshino-green), var(--yoshino-red))!important;
 }
 /* CHANNEL TABS */
@@ -205,10 +205,10 @@
     background: linear-gradient(90deg, var(--yoshino-green), var(--yoshino-red))!important;
 }
 /* CHANNEL HEADER */
-.title-3qD0b-, .base-3dtUhz .container-1r6BKw {
+.title-31SJ6t, .base-2jDfDU .container-ZMc96U {
     background: linear-gradient(90deg, var(--yoshino-green), var(--yoshino-red))!important;
 }
 /* CHAT BACKGROUND */
-.chatContent-a9vAAp, .peopleColumn-29fq28 {
+.chatContent-3KubbW, .peopleColumn-1wMU14 {
     background: linear-gradient(90deg, var(--yoshino-green), var(--yoshino-red))!important;
 }

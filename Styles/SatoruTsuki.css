@@ -22,7 +22,6 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css'); /* less round colors, the better tbh */
 @import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* make chat icons cool, remove uotes to enable */
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css"); /* USRBG POPOUTS */
-@import url("https://discord-custom-covers.github.io/usrbg/snippets/modals.css");
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
@@ -36,7 +35,7 @@
 */
 :root {
   /*Main Stuff*/
-  --main-color: rgba(22,18,49,0.35);
+  --main-color: rgba(22,18,49,0.45);
   --hover-color: rgba(255, 255, 255, 0.337);
   --success-color: #43b581;
   --danger-color: #982929;
@@ -45,7 +44,7 @@
   --texting-color: #A228FF;
 
   /* Alternate + main background */
- --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/874044260368924742/girl-staring-out-window-2.gif);
+   --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/874044260368924742/girl-staring-out-window-2.gif);
 /* --main-image: url(https://media.giphy.com/media/vMSXa7KFGx49aeeXhe/source.gif); /* Rolling Casette gif */
 /* --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/872994863497490493/ponyo-night-ship.gif); /* Ponyo Ship gif  (the flashing tho)*/
 /* --main-image: url(https://cdn.discordapp.com/attachments/872967492149080065/872974273411678328/girl-staring-out-window.gif); /* Girl staring out window vertical gif (default) */
@@ -209,26 +208,26 @@
   /* If you could like leave this alone.. */
   --background-floating: rgba(0, 0, 0, 0);
 }
-.userPopout-xaxa6l {
+.userPopout-2j1gM4 {
 	--USRBG-banner-height: 120px !important;
 }
 
 /* mmm fun things */
 
 /* Server unread colors */
-#app-mount .guilds-1SWlCJ [class*=pill] span {
+#app-mount .guilds-2JjMmN [class*=pill] span {
     background-color: SlateBlue;
 }
 
 /* Remove things I don't care about */
-.wrapper-2jXpOf .content-1x5b-n .actionIcon-PgcMM2,
+.wrapper-NhbLHG .content-1gYQeQ .actionIcon-2sw4Sl,
 [id="user-context-mention"],
 [id="user-context-call"],
 [id="user-context-note"],
 [id="user-context-block"],
 [id="user-context-remove-friend"],
 [aria-label="Open sticker picker"],
-.setIdentityLink-1t8Ahd,
+.setIdentityLink-hOFsMl,
 [id="message-notebook"],
 [id="message-copyrawmessage-copy-message"],
 [id="message-add-reaction"],
@@ -242,7 +241,7 @@
 }
 
 /* mini menu be like */
-.guildSection-1EoFKd > .flex-1xMQg5 > svg {
+.guildSection-2Zyzy8 > .flex-2S1XBF > svg {
     flex-shrink: 0;
 }
 
@@ -257,28 +256,29 @@
         transform: translateX(0);
     }
 }
-.message-2qnXI6 {
+.message-2CShn3 {
   animation: slide-up 0.4s ease;
 }
 
 /* bigger channel link */
-.children-19S4PO .mention.iconMentionText-8GCluA {
+.children-3xh0VB .mention.iconMentionText-1_WCtN {
   padding-left: 1rem !important;
 }
 
 /* Customized status picker*/
 #status-picker {
-  bottom: 0;
-  left: 20px !important;
+  bottom: -35px;
+  left: 5px !important;
   width: auto !important;
-  position: fixed;
+  position: auto;
   border-radius: unset;
   border-top-left-radius: 8px !important;
   border-top-right-radius: 8px;
-  background-color: rgba(23, 12, 54,0.85);
+  background-color: rgba(22,18,49,.95);
+  animation: slide-in 1s ease;
 }
-#status-picker .item-1tOPte {
-  margin: auto 10px;
+#status-picker .item-1OdjEX {
+  margin: 10px;
 }
 
 #status-picker-online {
@@ -295,28 +295,29 @@
 }
 
 /* Add :not(#status-picker-game-activity) after each of these :not s if applicable */
-#status-picker .item-1tOPte:not(#status-picker-custom-status):active,
-#status-picker .item-1tOPte:not(#status-picker-custom-status).focused-3afm-j {
+#status-picker .item-1OdjEX:not(#status-picker-custom-status):active,
+#status-picker .item-1OdjEX:not(#status-picker-custom-status).focused-3qFvc8 {
   background-color: var(--status-colour);
   animation: slide-up .5s ease; /* Adds animation to the colors so it's less jarring */
 
 }
 
+
 /* user modal open link button */
-.connectedAccountOpenIcon-E5wGF4 {
+.connectedAccountOpenIcon-1yfBsb {
   color   : deeppink !important;
   opacity : 1;
 }
 
 /* minimized user list */
-.membersWrap-2h-GB4{
+.membersWrap-3NUR2t{
   min-width: 0 !important;
 }
-.members-1998pB{
+.members-3WRCEx{
   transition: 250ms ease all;
   width: 61px;
 }
-.membersWrap-2h-GB4:hover .members-1998pB{
+.membersWrap-3NUR2t:hover .members-3WRCEx{
   width: 240px !important;
 }
 
@@ -327,7 +328,80 @@
 }
 
 /* fix unselected channels */
-.wrapper-2jXpOf.modeConnected-3IsKId .content-1x5b-n .mainContent-u_9PKf .name-23GUGE {
+.wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ .mainContent-20q_Hp .name-28HaxV {
     color: var(--texting-color);
     text-shadow: 0 0 3px;
+}
+
+/* center emoji */
+.customStatusWithEmoji-Y8lMLP.statusItem-2hiCNB {
+    margin-left: 18px !important;
+    margin-right: auto !important;
+}
+
+/* button fix again */
+
+
+/* user box */
+.container-YkUktl {
+  height: auto;
+}
+
+/* yes */
+.children-3xh0VB .mention.iconMentionText-1_WCtN {
+  padding-left: 1rem !important;
+}
+
+/* position statuspicker relative to user box */
+
+
+/*fix transparency */
+.list-3-WAYB {
+  background-color: rgba(0,0,0,.35) !important;
+}
+
+/* code font */
+code {
+    font-family: Monospace !important;
+}
+
+
+
+/* unread message pill edits */
+.unreadPillCap-2-iI4h {
+   display: none;
+   right: 50%
+}
+
+.divider-2rZFJK {
+    border: none !important;
+}
+
+.isUnread-3Lojb-{
+    right: 50%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.unreadPill-3nEWYM {
+    background-color: var(--background-shading);
+    border-radius: 50px;
+    color: var(--main-color);
+}
+
+.unreadPill-3nEWYM, .unreadPillCap-2-iI4h {
+    position: absolute;
+    height: 13px;
+}
+/* remove the box shadow of the date dividers */
+.content-3spvdd {
+    background: var(--background-shading);
+    color: var(--main-color);
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* Remove red dates on unreada */
+.isUnread-3Lojb- .content-3spvdd {
+    display: none;
 }
