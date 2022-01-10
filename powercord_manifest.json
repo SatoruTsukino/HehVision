@@ -1,8 +1,8 @@
 {
-    "name": "CrenVision",
-    "description": "Crenshaw's edit of ClearVision",
-    "version": "69.420",
-    "author": "Crenshaw1312 and ClearVision team",
+    "name": "HehVision",
+    "description": "Satoru's edit of Crenshaw's edit of ClearVision",
+    "version": "20.22",
+    "author": "SatoruTsukino, Crenshaw1312 and ClearVision team",
     "theme": "CrenVision.scss",
     "license": "Apache-2.0"
 }
