@@ -6,7 +6,7 @@ Some random words to really fucking sell my preset.
 ### I already have ClearVision
 Replace your clearvsion import line with the one below.
 ```
-@import url(https://Crenshaw1312.github.io/CrenVision/main.css);
+@import url(https://satorutsukino.github.io/HehVision/main.css);
 ```
 Look in the main.css file above for the new vars you can use!
 > You should lighten your main color to be partially transparnet
